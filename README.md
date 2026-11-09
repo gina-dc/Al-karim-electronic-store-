@@ -121,4 +121,4 @@ If `vite is not recognized` appears, the local development dependencies are miss
 
 Stop the running frontend with **Ctrl+C in its terminal before running `npm.cmd ci`**. Vite loads native files such as Lightning CSS that Windows locks while they are in use. Run `npm.cmd ci --include=dev` only for initial setup or when dependencies change; for normal startup, run only `npm.cmd run dev`. If an installation was interrupted, stop Vite and rerun the install command before restarting it. Do not delete the lockfile or run all terminals as Administrator to work around a running-server file lock.
 
-## Backend address and login status
+
