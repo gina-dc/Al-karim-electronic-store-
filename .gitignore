@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.env
+**/.env
+node_modules/
+.pytest_cache/
+.ruff_cache/
+*.tsbuildinfo
+
+.tools/
+.runtime/
+
+frontend/test-results/
+frontend/playwright-report/
+
+# Secret environment variants (keep examples)
+**/.env.*
+!**/.env.example
+!**/.env.*.example

@@ -1,0 +1,12 @@
+[project]
+name = "al-karim-project"
+version = "0.1.0"
+description = "Urdu-first electronics shop management workspace"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "backend",
+]
